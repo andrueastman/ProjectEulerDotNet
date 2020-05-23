@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Project_Euler
+﻿namespace Project_Euler
 {
     internal class Program
     {

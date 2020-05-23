@@ -5,6 +5,5 @@
     public abstract class Problem
     {
         public abstract string Answer();
-
     }
 }
