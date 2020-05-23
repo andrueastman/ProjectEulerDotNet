@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project Euler", "ProjectEuler\Project Euler.csproj", "{9D1B0643-1C61-4592-9035-B1F137B8441E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectEulerTests", "ProjectEulerTests\ProjectEulerTests.csproj", "{1748D3DE-1E65-401A-B512-DA8DFBC31577}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D1B0643-1C61-4592-9035-B1F137B8441E} = {9D1B0643-1C61-4592-9035-B1F137B8441E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
