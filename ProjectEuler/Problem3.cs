@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-namespace Project_Euler
+﻿namespace Project_Euler
 {
     public class Problem3 : Problem
     {
@@ -8,8 +6,8 @@ namespace Project_Euler
 
         public override string Answer()
         {
-            var primeFactors = Math.PrimeFactors(Number);
-            return $"{primeFactors.Last()}";
+            var primeFactors = Math.PrimeFactors(Number).ToArray();
+            return $"{primeFactors[^1]}";
         }
     }
 }

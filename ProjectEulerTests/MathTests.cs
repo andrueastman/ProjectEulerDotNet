@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
 using Project_Euler;
 using Xunit;
 
@@ -10,15 +8,13 @@ namespace ProjectEulerTests
         [Fact]
         public void TestPrimeFactors()
         {
-            List<long> primeFactors = Math.PrimeFactors(13195).ToList();
+            var primeFactors = Math.PrimeFactors(13195).ToArray();
 
-            Assert.Equal(4,primeFactors.Count);
-            Assert.Equal(5,primeFactors[0]);
-            Assert.Equal(7,primeFactors[1]);
-            Assert.Equal(13,primeFactors[2]);
-            Assert.Equal(29,primeFactors[3]);
-
-
+            Assert.Equal(4, primeFactors.Length);
+            Assert.Equal(5, primeFactors[0]);
+            Assert.Equal(7, primeFactors[1]);
+            Assert.Equal(13, primeFactors[2]);
+            Assert.Equal(29, primeFactors[3]);
         }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Project_Euler
+﻿namespace Project_Euler
 {
     public class Math
     {
@@ -22,7 +18,7 @@ namespace Project_Euler
         public static bool IsPrime(long n)
         {
             if (n < 1)
-                throw new ArgumentException("Number must be positive");
+                return false; // TODO fixme
 
             if (n == 1)
                 return false;
@@ -42,7 +38,7 @@ namespace Project_Euler
             return true;
         }
 
-        public static IEnumerable<long> Factors(long n)
+        public static List<long> Factors(long n)
         {
             var factors = new List<long>();
             for (var i = 1; i <= n; i++)
@@ -55,7 +51,7 @@ namespace Project_Euler
             return factors;
         }
 
-        public static IEnumerable<long> PrimeFactors(long n)
+        public static List<long> PrimeFactors(long n)
         {
             return Factors(n).Where(IsPrime);
         }
