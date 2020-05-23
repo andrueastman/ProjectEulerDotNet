@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Project_Euler;
+﻿using Project_Euler;
 using Xunit;
 
 namespace ProjectEulerTests
@@ -28,7 +25,5 @@ namespace ProjectEulerTests
             // Problem 3
             Assert.Equal("6857", new Problem3().Answer());
         }
-
-
     }
 }

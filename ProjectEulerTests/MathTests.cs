@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace ProjectEulerTests
@@ -8,7 +7,6 @@ namespace ProjectEulerTests
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
