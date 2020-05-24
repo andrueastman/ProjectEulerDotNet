@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Project_Euler
+namespace Project_Euler.Libraries
 {
     public class List<T>
     {

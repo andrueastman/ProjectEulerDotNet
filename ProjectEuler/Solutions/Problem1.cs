@@ -1,4 +1,4 @@
-﻿namespace Project_Euler
+﻿namespace Project_Euler.Solutions
 {
     public class Problem1 : Problem
     {

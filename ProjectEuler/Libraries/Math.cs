@@ -1,4 +1,4 @@
-﻿namespace Project_Euler
+﻿namespace Project_Euler.Libraries
 {
     public class Math
     {

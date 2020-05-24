@@ -1,7 +1,7 @@
-﻿using Project_Euler;
+﻿using Project_Euler.Libraries;
 using Xunit;
 
-namespace ProjectEulerTests
+namespace ProjectEulerTests.Libraries
 {
     public class ListTests
     {

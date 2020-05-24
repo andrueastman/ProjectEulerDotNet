@@ -1,4 +1,6 @@
-﻿namespace Project_Euler
+﻿using Project_Euler.Libraries;
+
+namespace Project_Euler.Solutions
 {
     public class Problem3 : Problem
     {

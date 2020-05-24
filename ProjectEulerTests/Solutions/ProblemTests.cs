@@ -1,7 +1,8 @@
 ﻿using Project_Euler;
+using Project_Euler.Solutions;
 using Xunit;
 
-namespace ProjectEulerTests
+namespace ProjectEulerTests.Solutions
 {
     public class ProblemTests
     {
@@ -24,6 +25,13 @@ namespace ProjectEulerTests
         {
             // Problem 3
             Assert.Equal("6857", new Problem3().Answer());
+        }
+
+        [Fact]
+        public void Problem4()
+        {
+            // Problem 3
+            Assert.Equal("", new Problem4().Answer());
         }
     }
 }
