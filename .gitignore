@@ -6,3 +6,5 @@ ProjectEuler/obj/
 ProjectEulerTests/bin/
 
 ProjectEulerTests/obj/
+
+.vs/Project Euler/DesignTimeBuild/
